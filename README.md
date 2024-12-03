@@ -2,7 +2,7 @@
 * This will create Firefox web browser inside docker container
 ![alt text](image.png)
 
-### How to use
+## How to use
 * Windows double-check run.bat
 * Linux use run.sh
 ```sh
