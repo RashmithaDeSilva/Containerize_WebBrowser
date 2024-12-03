@@ -1,0 +1,11 @@
+version: '3.9' # You can use other versions like '3.8' if needed.
+
+services:
+  firefox:
+    image: jlesage/firefox
+    container_name: firefox
+    ports:
+      - "5800:5800"
+    volumes:
+      - ./config:/config:rw
+    restart: unless-stopped
